@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+header{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(116, 221, 233);
+    background-image: url('Imagenes/Aquamarine\ background.jpg');
+    
+
+}
+  a{
+    text-decoration: none;
+    color: darkblue;
+  }
+
+  
+  header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 130%;
+    
+    
+
+}
+header ul li{
+     margin: 10px;
+     color: black;
+     font-size: 25px;
+     font-family: 'Vollkorn', serif;
+     
+}
+
+
+.background {
+  background-image: url(Imagenes/pink\ background.avif);
+  padding: 20px; 
+}
+
+
+ img{
+    width: 55%;
+    
+ }   
+
+h1{
+    font: size 34px;
+    color: rgb(227, 238, 238);
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+
+}
+p{
+    font-size: 20px;
+    color: rgb(59, 57, 57);
+}
+.presentacion{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    margin: 15px auto
+    
+}
+ .presentacion h1{
+
+    font-size: 35px;
+    color: rgb(57, 56, 56);
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    
+ }
+ .presentacion p{
+
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Dancing Script", cursive;
+    
+ }
+
+ .container-sm {
+  
+  
+}
+
+#carouseltattoo {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: 0% 10px;
+}
+
+.carousel-inner {
+  max-height: 400px; 
+
+}
+
+.carousel-item img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+
+
+  #nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+  #nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+  }
+    
+  .carousel {
+    margin-bottom: 20px; 
+  }
+
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+
+
+  #carruseldibujos .carousel-inner {
+    max-width: 600px; 
+    margin: auto; 
+    height: auto;
+  }
+  
+
+.caja{
+    width: 30%;
+  height: 100%;
+  padding: 10px;
+  display: inline-block;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); 
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  filter: invert(0%); /* Cambia el color de las flechas a negro al pasar el ratón */
+}
+
+#carruseldibujos .carousel-control-prev-icon,
+#carruseldibujos .carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+#carruseldibujos .carousel-control-prev,
+#carruseldibujos .carousel-control-next {
+  width: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#carruseldibujos .carousel-control-prev {
+  left: 15%;
+}
+
+#carruseldibujos .carousel-control-next {
+  right: 20%;
+}
+
+
+
+.caja img{
+    border-radius: 50%;
+
+}
+
+.caja p{
+    font-size: 16px;
+}
